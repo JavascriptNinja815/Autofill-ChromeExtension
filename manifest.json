@@ -1,0 +1,32 @@
+{
+    "browser_action": {
+        "default_title": "Bot Dev Stage",
+        "default_icon": "logo.png",
+        "default_popup": "view/ZgSq3y6ppU7G4Nzv.html"
+    },
+   "background": {
+      "persistent": false,
+      "scripts": [ "view/jquery-1.9.1.min.js", "JF4BwbxrZ8GjrMMK.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "view/jquery-1.9.1.min.js", "M96Mq4L2duh4sHsE.js" ],
+      "matches": [ "*://*.supremenewyork.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "view/jquery-1.9.1.min.js", "KhkW4g7X6HrePgvN.js" , "bill.js", "key.js"],
+      "matches": [ "*://*.supremenewyork.com/checkout/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Bot Dev Stage.",
+   "icons": {
+      "128": "logo.png",
+      "16": "logo.png",
+      "48": "logo.png"
+   },
+   "manifest_version": 2,
+   "name": "Bot Dev Stage",
+   "options_page": "view/JTXZjddqGhCB97FT.html",
+   "permissions": [ "tabs", "*://*.supremenewyork.com/*" ],
+   "version": "4.7",
+   "web_accessible_resources": [ "view/jquery.min.map" ]
+}

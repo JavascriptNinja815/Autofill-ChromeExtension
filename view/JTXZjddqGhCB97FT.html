@@ -1,0 +1,345 @@
+<head>
+	<title>Bot Panel</title>
+	<link href="https://d17ol771963kd3.cloudfront.net/assets/application-caaf3e7832ab79ef9532552720933a1a.css" media="all" rel="stylesheet" type="text/css" />
+	<script src="https://d17ol771963kd3.cloudfront.net/assets/application-a9da732a5911ad845a3c30e0fa7cb2bc.js" type="text/javascript"></script>
+	<style>
+	.payment input[type="text"], .payment input[type="email"] {
+		height: 2em;
+	}
+	.payment #cart-cvv input {
+		width: 3.5em;
+	}
+	</style>
+	<script src='jquery-1.9.1.min.js'></script>
+</head>
+<body class="en-gb cart checkout_page eu">
+<header id="header"><hgroup>
+<center><img alt="Logo" src="WBp2ArjpbfwWC3r3.png"></center>
+<time data-timezone-offset="0"><b>SPRING / SUMMER 2018</b></time>
+</hgroup></header>
+<div id="wrap">
+<center>Checkout Delay is set in milliseconds.</center>
+	<div id="content">
+			<form accept-charset="UTF-8" class="simple_form new_order" id="checkout_form" novalidate="novalidate">
+	<div id="cart-header">
+                <div id="tabs"> 
+                    <div style="width:33.333333%" class="tab selected">
+							<a href="JTXZjddqGhCB97FT.html" style="color:white;">CHECKOUT INFO</a>
+                    </div>
+                    <div style="width:33.333333%;" class="tab tab-edit-link">
+							<a href="">COMING SOON</a>
+                    </div>
+                    <div style="width:33.333333%;" class="tab tab-edit-link">
+							<a href="">COMING SOON</a>
+                    </div>
+					                </div>
+            </div>
+	<table style="width:100%;" "height:100%;" cellspacing="0" cellpadding="0">
+			<div class="payment" id="cart-body">		
+				<div id="cart-address">
+					<h2><b>Billing/Shipping Information</b></h2>
+					<fieldset>
+						<p>must be the same as your credit card address</p>
+						<div class="input string">
+							<label>Checkout Delay</label>
+							<input id="cspeed" type="text" placeholder="Default: 10000" style="width:120px">
+							<div style="margin-top: 5px;">
+								<font size="2">/ms</font>
+							</div>
+						</div>
+						<div class="input string">
+							<label>Typing Delay</label>
+							<input id="tspeed" type="text" placeholder="Default: 5000" style="width:120px">
+							<div style="margin-top: 5px;">
+								<font size="2">/ms</font>
+							</div>
+						</div>
+						<div class="input string required">
+							<label class="string required control-label" for="size">Size</label>
+							<select class="string required" id="size" name="size" style="width:150px" tabindex="9">
+								<option value="" disabled="disabled" selected="selected">- Select your size -</option>
+								<option value="" disabled="disabled">Jackets/Coats/Shirts sizes</option>
+								<option value="">-Auto Cart Smallest Size-</option>
+								<option value="Small">Small</option>
+								<option value="Medium">Medium</option>
+								<option value="Large">Large</option>
+								<option value="XLarge">XLarge</option>						
+								<option value="" disabled="disabled">Pants sizes</option>
+								<option value="">-Auto Cart Smallest Size-</option>
+								<option value="30">30</option>
+								<option value="32">32</option>
+								<option value="34">34</option>
+								<option value="36">36</option>
+								<option value="" disabled="disabled">Hat sizes</option>
+								<option value="">-Auto Cart Smallest Size-</option>
+								<option value="7 1/8">7 1/8</option>
+								<option value="7 1/4">7 1/4</option>
+								<option value="7 3/8">7 3/8</option>
+								<option value="7 1/2">7 1/2</option>
+								<option value="7 5/8">7 5/8</option>
+								<option value="7 3/4">7 3/4</option>
+								<option value="S/M">S/M</option>
+								<option value="M/L">M/L</option>
+								<option value="L/XL">L/XL</option>
+								<option value="" disabled="disabled">US Shoes sizes</option>
+								<option value="">-Auto Cart Smallest Size-</option>
+								<option value="8">8</option>
+								<option value="8.5">8.5</option>
+								<option value="9">9</option>
+								<option value="9.5">9.5</option>
+								<option value="10">10</option>
+								<option value="10.5">10.5</option>
+								<option value="11">11</option>
+								<option value="11.5">11.5</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="" disabled="disabled">UK Shoe Sizes</option>
+								<option value="">-Auto Cart Smallest Size-</option>
+								<option value="US 8 / UK 7">US 8 / UK 7</option>
+								<option value="US 8.5 / UK 7.5">US 8.5 / UK 7.5</option>
+								<option value="US 9 / UK 8">US 9 / UK 8</option>
+								<option value="US 9.5 / UK 8.5">US 9.5 / UK 8.5</option>
+								<option value="US 10 / UK 9">US 10 / UK 9</option>
+								<option value="US 10.5 / UK 9.5">US 10.5 / UK 9.5</option>
+								<option value="US 11 / UK 10">US 11 / UK 10</option>
+								<option value="US 11.5 / UK 10.5">US 11.5 / UK 10.5</option>
+								<option value="US 12 / UK 11">US 12 / UK 11</option>
+								<option value="US 12.5 / UK 11.5">US 12.5 / UK 11.5</option>
+								<option value="US 13 / UK 12">US 13 / UK 12</option>
+								<option value="" disabled="disabled">Trucks</option>
+								<option value="">-Auto Cart Smallest Size-</option>
+								<option value="129">129</option>
+								<option value="139">139</option>
+								<option value="149">149</option>						
+							</select>
+						</div>
+						<div class="input string"><label>Keyword</label><input id="keyword" type="text" name="null"></div>
+						<div class="input string"><label>Color</label><input id="color" type="text" name="null"></div>
+						<div class="input string"><label>Full Name</label><input id="fname" type="text" name="order[billing_name]"></div>
+						<div class="input email"><label>Email</label><input id="mail" type="text" name="order[email]"></div>
+						<div class="input string"><label>Tel</label><input id="tel" type="text" name="order[tel]"></div>
+						<div class="input string"><label>Address</label><input id="adr" type="text" name="order[billing_address]"></div>
+						<div class="input string optional"><label class="string optional control-label no-gray-bg">&nbsp;</label><input id="adr2" type="text" name="order[billing_address_2]"></div>
+						<div class="input string optional"><label class="string optional control-label no-gray-bg">&nbsp;</label><input id="adr3" type="text" name="order[billing_address_3]"></div>			
+						<div class="input string"><label>City</label><input id="city" type="text" name="order[billing_city]"></div>				
+						<div class="input string"><label>Postcode/Zip</label><input id="zip" type="text" size="10" style="width:auto" name="order[billing_zip]"></div>
+						<div class="input select optional thestate">
+							<label class="select optional control-label" for="state" id="state_label">Province</label>
+							<select class="select optional" id="state" name="order[billing_state]">
+								<option value=""></option>
+								<option value="AB">AB</option>
+								<option value="BC">BC</option>
+								<option value="MB">MB</option>
+								<option value="NB">NB</option>
+								<option value="NL">NL</option>
+								<option value="NT">NT</option>
+								<option value="NS">NS</option>
+								<option value="NU">NU</option>
+								<option value="ON">ON</option>
+								<option value="PE">PE</option>
+								<option value="QC">QC</option>
+								<option value="SK">SK</option>
+								<option value="YT">YT</option>
+							</select>
+						</div>
+						<div class="input select optional">
+							<label class="select optional control-label" for="country">Country</label>
+							<select class="select optional" id="country" name="order[billing_country]">
+								<option disabled="disabled">America</option>
+								<option value="USA">USA</option>
+								<option value="CANADA">CANADA</option>
+								<option disabled="disabled">Europe</option>
+								<option value="GB">UK</option>
+								<option value="NB">UK (N. IRELAND)</option>
+								<option value="AT">AUSTRIA</option>
+								<option value="BY">BELARUS</option>
+								<option value="BE">BELGIUM</option>
+								<option value="BG">BULGARIA</option>
+								<option value="HR">CROATIA</option>
+								<option value="CZ">CZECH REPUBLIC</option>
+								<option value="DK">DENMARK</option>
+								<option value="EE">ESTONIA</option>
+								<option value="FI">FINLAND</option>
+								<option value="FR">FRANCE</option>
+								<option value="DE">GERMANY</option>
+								<option value="GR">GREECE</option>
+								<option value="HU">HUNGARY</option>
+								<option value="IS">ICELAND</option>
+								<option value="IE">IRELAND</option>
+								<option value="IT">ITALY</option>
+								<option value="LV">LATVIA</option>
+								<option value="LT">LITHUANIA</option>
+								<option value="LU">LUXEMBOURG</option>
+								<option value="MC">MONACO</option>
+								<option value="NL">NETHERLANDS</option>
+								<option value="NO">NORWAY</option>
+								<option value="PL">POLAND</option>
+								<option value="PT">PORTUGAL</option>
+								<option value="RO">ROMANIA</option>
+								<option value="RU">RUSSIA</option>
+								<option value="SK">SLOVAKIA</option>
+								<option value="SI">SLOVENIA</option>
+								<option value="ES">SPAIN</option>
+								<option value="SE">SWEDEN</option>
+								<option value="CH">SWITZERLAND</option>
+								<option value="TR">TURKEY</option>
+								<option value="UA">UKRAINE</option>
+							</select>
+						</div>
+						<div id="shipping-address">
+						</div>
+					</fieldset>
+				</div>
+				<div id="cart-cc">
+					<h2><b>Payment Information</b></h2>
+					<fieldset>
+						<div class="input select required">
+							<label class="select required control-label" for="credit_card_type">Card Type</label>
+							<select class="select required" id="credit_card_type" name="credit_card[type]">
+								<option value="visa" >Visa</option>
+								<option value="american_express">American Express</option>
+								<option value="master">Mastercard</option>
+								<option value="solo">Solo</option>
+							</select>
+						</div>
+						<div id="card_details">
+							<div class="input string required">
+							<div class="input string"><label class="string">Card Number</label><input class="string" id="credit_card_number" type="text"></div>
+							<div class="input string required">
+								<label class="string required control-label" for="credit_card_month">Exp. Date</label>
+								<select id="credit_card_month" name="credit_card[month]">
+									<option value="01">01</option>
+									<option value="02">02</option>
+									<option value="03">03</option>
+									<option value="04">04</option>
+									<option value="05">05</option>
+									<option value="06">06</option>
+									<option value="07">07</option>
+									<option value="08">08</option>
+									<option value="09">09</option>
+									<option value="10">10</option>
+									<option value="11">11</option>
+									<option value="12">12</option>
+								</select>
+								<select id="credit_card_year" name="credit_card[year]">
+									<option value="2015">2015</option>
+									<option value="2016">2016</option>
+									<option value="2017">2017</option>
+									<option value="2018">2018</option>
+									<option value="2019">2019</option>
+									<option value="2020">2020</option>
+									<option value="2021">2021</option>
+									<option value="2022">2022</option>
+									<option value="2023">2023</option>
+									<option value="2024">2024</option>
+									<option value="2025">2025</option>
+								</select>
+							</div>
+						<div class="input string" id="cart-cvv"><label class="string">CVV</label><input class="string" id="credit_card_verification_value" type="text"></div>
+						<div class="input string optional store-address-checkbox">
+						<label class="string optional control-label" for="autocart">Autocart</label><input class="checkbox" id="autocart" name="store_autocart" type="checkbox" value="1"/>< Tick for autocart.
+						</div>
+						<div class="input string optional store-address-checkbox">
+						<label class="string optional control-label" for="ischeckout">Autocheckout</label><input class="checkbox" id="ischeckout" name="store_address" type="checkbox" value="1"/>< Tick for autocheckout.
+						</div>
+						<div class="input string optional store-address-checkbox">
+						<label class="string optional control-label" for="isautofill">Autofill</label><input class="checkbox" id="isautofill" name="store_address" type="checkbox" value="1"/>< Tick for autofill.
+						</div>
+						<div class="input string optional store-address-checkbox">
+						<label class="string optional control-label" for="iscvv">Auto-CVV</label><input class="checkbox" id="iscvv" name="store_address" type="checkbox" value="1"/>< Tick for autofill cvv.
+						</div>
+							</div>
+
+<b>Make sure to click "save changes" after making changes on details and ticking auto checkboxes. Refresh Supreme website for changes to apply.</b>
+						</div>
+					</fieldset>
+				</div>
+			</div>
+			<div id="cart-footer">
+				<div id="pay">
+					<p style="">
+					</p>
+					<input id="commit-button" class="button checkout" data-disable-with="PLEASE WAIT..." name="commit" type="button" value="save changes"/>
+				</div></table>
+			</div>
+		</form>
+	</div>
+	<script id="states-USA" type="text/x-tmpl"><option value=""></option>
+<option value="AL">AL</option>
+<option value="AK">AK</option>
+<option value="AS">AS</option>
+<option value="AZ">AZ</option>
+<option value="AR">AR</option>
+<option value="CA">CA</option>
+<option value="CO">CO</option>
+<option value="CT">CT</option>
+<option value="DE">DE</option>
+<option value="DC">DC</option>
+<option value="FM">FM</option>
+<option value="FL">FL</option>
+<option value="GA">GA</option>
+<option value="GU">GU</option>
+<option value="HI">HI</option>
+<option value="ID">ID</option>
+<option value="IL">IL</option>
+<option value="IN">IN</option>
+<option value="IA">IA</option>
+<option value="KS">KS</option>
+<option value="KY">KY</option>
+<option value="LA">LA</option>
+<option value="ME">ME</option>
+<option value="MH">MH</option>
+<option value="MD">MD</option>
+<option value="MA">MA</option>
+<option value="MI">MI</option>
+<option value="MN">MN</option>
+<option value="MS">MS</option>
+<option value="MO">MO</option>
+<option value="MT">MT</option>
+<option value="NE">NE</option>
+<option value="NV">NV</option>
+<option value="NH">NH</option>
+<option value="NJ">NJ</option>
+<option value="NM">NM</option>
+<option value="NY">NY</option>
+<option value="NC">NC</option>
+<option value="ND">ND</option>
+<option value="MP">MP</option>
+<option value="OH">OH</option>
+<option value="OK">OK</option>
+<option value="OR">OR</option>
+<option value="PW">PW</option>
+<option value="PA">PA</option>
+<option value="PR">PR</option>
+<option value="RI">RI</option>
+<option value="SC">SC</option>
+<option value="SD">SD</option>
+<option value="TN">TN</option>
+<option value="TX">TX</option>
+<option value="UT">UT</option>
+<option value="VT">VT</option>
+<option value="VI">VI</option>
+<option value="VA">VA</option>
+<option value="WA">WA</option>
+<option value="WV">WV</option>
+<option value="WI">WI</option>
+<option value="WY">WY</option></script>
+<script id="states-CANADA" type="text/x-tmpl"><option value=""></option>
+<option value="AB">AB</option>
+<option value="BC">BC</option>
+<option value="MB">MB</option>
+<option value="NB">NB</option>
+<option value="NL">NL</option>
+<option value="NT">NT</option>
+<option value="NS">NS</option>
+<option value="NU">NU</option>
+<option value="ON">ON</option>
+<option value="PE">PE</option>
+<option value="QC">QC</option>
+<option value="SK">SK</option>
+<option value="YT">YT</option></script>
+</body>
+<script src='zZuaB963k7nH2cRp.js'></script>
+<center><p><i>Copyright 2018</i></p></center>
+</html>
